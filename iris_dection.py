@@ -4,9 +4,7 @@ import mediapipe as mp
 
 mp_face_mesh = mp.solutions.face_mesh
 
-left_eyes =[362,382,381,380,374,373,390,249,263,466,388,387,386,385,384,398]
-# right eyes indices
-right_eyes =[33,7,163,144,145,153,154,155,133,173,157,158,159,160,161,246]
+
   
 left_iris = [474,475,476,477]
 right_iris = [469,470,471,472]
