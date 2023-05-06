@@ -9,7 +9,7 @@ mp_face_mesh = mp.solutions.face_mesh
 left_iris = [474,475,476,477]
 right_iris = [469,470,471,472]
 
-cap = cv.VideoCapture(0)#it is camerea
+cap = cv.VideoCapture(0)
 with mp_face_mesh.FaceMesh(
     max_num_faces = 1,
     refine_landmarks = True,
